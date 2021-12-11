@@ -1,0 +1,63 @@
+body{
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+div, p, input, button, form, span, a, ul, li{
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+.text{
+  font-family: 'Lexend Deca', sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+  height: 200px;
+  text-align: left;
+}
+
+.hon{
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display';
+  font-size: 2.5rem;
+  margin: 26px 0;
+}
+.columns{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 60%;
+  margin: 0;
+  margin-left: 400px;
+}
+.column{
+  padding: 50px;
+}
+
+.column-one{
+  background-color: #e38826;
+  border-radius: 5px 0 0 5px;
+}
+
+.column-two{
+  background-color: #00646b;
+}
+
+.column-three{
+  background-color: #004241;
+  border-radius: 0 5px 5px 0;
+}
+
+.btn{
+  border-radius: 25px;
+  border: 0;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  margin-top: 65px;
+}
